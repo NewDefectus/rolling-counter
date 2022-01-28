@@ -1,0 +1,21 @@
+#yearContainer {
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid black;
+    border-radius: 20px;
+    border-spacing: 0;
+}
+
+#yearContainer td {
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    margin: 0;
+    padding: 0;
+    height: 1.1em;
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+td::-webkit-scrollbar {
+    display: none
+}
